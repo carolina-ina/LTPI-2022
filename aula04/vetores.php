@@ -27,8 +27,7 @@
     for($i=0;$i<=3;$i++){
 
     echo '<td>'.$nomes[$i].'</td>' ;
-    
-         
+             
     }
     echo'<tr>';
     for($i=0;$i<=3;$i++){
@@ -36,7 +35,6 @@
     echo '<td>'.$idades[$i].'</td>';
              
     }
-
     echo'</tr>';
     echo'</table>';
 
