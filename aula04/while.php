@@ -7,15 +7,25 @@
     <title>Document</title>
 </head>
 <body>
+    <p>Decrementar de 01 em 01 com While</p>
 <?php
  $i=10;
  while($i>=0){
      echo "$i<br>";
      echo "<hr>";
-     $i=$i-2;
+     $i=$i-1;
  }
 
 ?>
-    
+ <p>Decrementar de 02 em 02 com While</p>
+<?php
+
+$i=10;
+ while($i>=0){
+     echo "$i<br>";
+     echo "<hr>";
+     $i=$i-2;
+ }
+   ?> 
 </body>
 </html>
