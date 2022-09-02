@@ -13,7 +13,7 @@
  while($i>=0){
      echo "$i<br>";
      echo "<hr>";
-     $i=$i-1;
+     $i--;
  }
 
 ?>
