@@ -11,12 +11,15 @@
     $nomes =['Edna','Carol Miranda','Carol Abreu'];
     $nomes[] ='Milena';
     $i =0;
-
+    echo'<h2>Usando for</h2>';
+    echo'<table border="1">';
     for($i=0;$i<=3;$i++){
 
-     echo $nomes[$i].'<br>' ;
+     echo '<tr><td>' .$nomes[$i].'</td></tr>' ;
     
     }
+    echo'</table>';
+
     ?>
     
 </body>
