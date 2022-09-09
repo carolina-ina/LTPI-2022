@@ -26,7 +26,7 @@
     foreach($notas as $p=>$v){
         echo "$p :  $v <br>"; 
     }
-
+//nesse caso, o uso de "=>" serve para atribuir valores para o índice do Vetor
     ?>
     
 </body>
