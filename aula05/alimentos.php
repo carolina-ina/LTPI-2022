@@ -21,14 +21,16 @@
     echo"<br>";
     echo $alimentos[1][2];
     echo "<h1> Frutas </h1>";
+    echo'<table border="1">';
     foreach($frutas as $v){
-        echo $v. "<br>";
+        echo '<td>' .$v. '</td>';
     }
-    echo "<br>";
+    echo "</tr>";
     echo "<h1>Legumes</h1>";
-
+    echo "<h1> Frutas </h1>";
+    echo'<table border="1">';
     foreach($legumes as$v){
-        echo $v. "<br>";
+        echo '<td>' .$v. '</td>';
     }
     ?>
     
