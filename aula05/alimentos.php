@@ -9,14 +9,27 @@
 <body>
     <?php
 
+    
+//VETOR DE VETORES
     $frutas=["Pera","Carambola","limão"];
     $legumes=["Cenoura","Jerimum","Chuchu"];
 
     $alimentos=array($frutas,$legumes);
 
+    echo "<h1> Exemplo de vetor de vetor</h1>";
     echo $alimentos[0][1];
+    echo"<br>";
     echo $alimentos[1][2];
+    echo "<h1> Frutas </h1>";
+    foreach($frutas as $v){
+        echo $v. "<br>";
+    }
+    echo "<br>";
+    echo "<h1>Legumes</h1>";
 
+    foreach($legumes as$v){
+        echo $v. "<br>";
+    }
     ?>
     
 </body>
