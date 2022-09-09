@@ -24,14 +24,15 @@
     echo"<p> Usando While </p>";
     $i =0;
     $numeros[$i]= $i+1;
-    $soma= $i + $numeros[$i];
+    $soma= $soma + $numeros[$i];
+    $soma=0;
     echo"<br>";
     echo'<table border="1">';
     echo'<tr><th>Vetor</th><th>Valor</th><th>Soma</th></tr>';
 
-    while($i<=100){
+    while($i<100){
     $numeros[$i]=$i+1;
-    $soma= $i + $numeros[$i];
+    $soma= $soma + $numeros[$i];
 
         
     echo '<tr><td>'.$i.'</td><td>'.$numeros[$i].'</td><td>'.$soma.'</td></tr>';
