@@ -37,9 +37,7 @@
     echo '<tr><td>'.$i.'</td><td>'.$numeros[$i].'</td><td>'.$soma.'</td></tr>';
     $i ++;
     }
-    
-    
-    
+       
     
     
     ?> 
