@@ -21,7 +21,7 @@
     foreach($p as $s){
         echo $s."<br>";
     }
-    $v = aray_unique($p);
+    $v = array_unique($p);
     foreach($v as $r){
         echo $r."<br>";
     }
