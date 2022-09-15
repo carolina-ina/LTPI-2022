@@ -7,7 +7,7 @@
     <title>Exercicio 1 PHP</title>
 </head>
 <body>
-    <?php
+<?php
 $x[0][0]= 15;
 $x[0][1]= 6;
 $x[1][0]= 2;

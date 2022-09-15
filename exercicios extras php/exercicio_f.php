@@ -25,8 +25,7 @@
     foreach($v as $r){
         echo $r."<br>";
     }
-    ?>
-    
+    ?>   
     
 </body>
 </html>
