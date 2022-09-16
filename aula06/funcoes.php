@@ -19,6 +19,10 @@
     for($i=0; $i<= mb_strlen($texto);$i++){
         echo mb_substr($texto,0,$i).'<br>';
 }
+    $texto = 'Biscoito';
+    for($i=0; $i<= mb_strlen($texto);$i++){
+        echo mb_substr($texto,$i,1).'<br>';
+}
     ?>
 
 </body>
