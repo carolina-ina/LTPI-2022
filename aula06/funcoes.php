@@ -14,6 +14,11 @@
     }
     echo "Média igual a ".media(5,8)."<br>";
 
+    echo '<h1>Biscoito</h1>';
+    $texto = 'biscoito';
+    for($i=0; $i<= mb_strlen($texto);$i++){
+        echo mb_substr($texto,0,$i).'<br>';
+}
     ?>
 
 </body>
