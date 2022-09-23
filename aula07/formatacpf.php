@@ -8,16 +8,13 @@
 </head>
 <body>
     <?php
-    $cpf = $n;
-    $tamcpf = strlen($n);
-    for ($i = 0; $i < $n; $i++) {
-    echo 'Caracter ' . $i . ' = ' . $n[$i] . '<br />';
-}
+    $n=1;
     function formata_cpf($n){
-
+    $cpf= str_pad($n, 11, 0, STR_PAD_LEFT);
+    $cpfarray = str_split($cpf,3);
+    echo "$cpfarray[0].$cpfarray[1].$cpfarray[2]-$cpfarray[3]";
     }
-
-    formata_cpf("12345678910");
+    formata_cpf(1314152)
     ?>
 </body>
 </html>
