@@ -10,9 +10,9 @@
 
     <?php
     function maior_num(){
-    $_reverse = [1, 2, 3, 101, 5];
+    $numeros = [1, 2, 3, 101, 5];
     $menor = 0;
-    foreach($_reverse as $a){
+    foreach($numeros as $a){
         echo $a.'<br>';
         if($a > $menor){
             $menor = $a;

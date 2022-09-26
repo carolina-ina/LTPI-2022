@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funçoes tabuada</title>
+    <title>Exercício Funçoes tabuada</title>
 </head>
 <body>
+<h1>Exercício Funções Letra A - Tabuada</h1>
     <?php
     echo '<h2>'.'Tabuada um a um'.'</h2>';
     function tabuada_v01($n){
