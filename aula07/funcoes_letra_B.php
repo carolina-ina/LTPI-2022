@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inverter conteúdo</title>
+    <title>Inverter Array</title>
 </head>
 <body>
-<h1>Exercício Funções Letra B - Inverter Conteúdo da Array</h1>
     <?php
 
-    $i= 0;
-    $x=[$i];
-    array_push($x,"a");
-    array_push($x,"z");
-    array_push($x,"m");
+$letras= ["a","z","m"];
 
-        for($i=2;$i>=0;$i--){
-        foreach ($x as $v);
-        echo $v;
-        }
-
+for($i = 0; $i < count($letras); $i++)
+  echo $letras[$i] . "<br>";
+echo "<br>";
+ echo '<p>Invertendo!<p>';
+function inverter(){
+$letras= ["a","z","m"];
+$letras = array_reverse($letras, false); 
+for($i = 0; $i < count($letras); $i++)
+  echo $letras[$i] . "<br>";
+}
+inverter();
     ?>
 </body>
 </html>
